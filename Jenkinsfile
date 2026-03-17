@@ -18,7 +18,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git ''
+                git 'https://github.com/ADirin/lectDemo_3009_sep2.'
             }
         }
 
